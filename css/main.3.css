@@ -1,0 +1,18 @@
+.box {
+  background-image: url("../image/main.jpg");
+  color: white;
+  height: 1000px;
+  /* rasimni gorizontal yo'nalishda to'lguncha qaytarilishi x- yo''nalish bo'ylab */
+  background-repeat: repeat-x;
+  /* rasimni vertiqal yo'nalishda to'lguncha qaytarilishi y- yo'nalish bo'ylab */
+  background-repeat: repeat-y;
+/* rasimni o'zining kenglilgi bo'ycha takrorlamasdan yoyilishi */
+background-repeat: no-repeat;
+/* rasimni to'la yuza bo'ylab joylashtradi */
+background-size: cover;
+/* rasimni ekran bo'ylab o'zini o'lchamlari borligicha joylashtradi */
+background-size: contain;
+/* rasimning  joylashish o'rnini belgilaydi */
+background-position: left top;
+border: 5px solid red;
+}
